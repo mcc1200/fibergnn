@@ -1,15 +1,27 @@
-# data & outputs
-dat/
+# data and outputs (keep the folder, not the contents)
+dat/*
+!dat/.gitkeep
 *.fits
 *.fits.gz
 *.h5
+*.hdf5
 *.npy
-checkpoints/
-runs/
+*.npz
 *.pt
+*.ckpt
+runs/
+checkpoints/
 
-# python junk
+# notebooks
+.ipynb_checkpoints/
+nb/
+
+# python / packaging
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.env
+*.egg-info/
+build/
+dist/
+
+# mac
+.DS_Store
