@@ -1,0 +1,15 @@
+# data & outputs
+dat/
+*.fits
+*.fits.gz
+*.h5
+*.npy
+checkpoints/
+runs/
+*.pt
+
+# python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
